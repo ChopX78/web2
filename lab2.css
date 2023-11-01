@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.Header,.Footer{
+    width: 100%;
+    float: left;
+    height: 90px;
+    background: #c677dc;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bLeft{
+    padding-left: 5px;
+    float: right;
+    width: 33%;
+    height: 500px;
+    background-image: url("https://sun9-26.userapi.com/impg/Ae9Ry_VPif2yVW4BW_nddhp6chU2hsPl4WiqFA/ekPv8qvhGnc.jpg?size=1284x1270&quality=95&sign=f5c6bae251449c592e75f9238c112b58&c_uniq_tag=QQ_PMI3dvclUI6hCyiBG-vSkGTzVCReboB4Vou8etw0&type=album");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    border: black 1px solid;
+
+}
+
+.bCenter {
+    float: right;
+    width: 33%;
+    height: 500px;
+
+}
+
+.bRight{
+    float: right;
+    width: 33%;
+    height: 500px;
+    background-color: #c800ff;
+    border: black 1px solid;
+}
+
+.column {
+    padding: 1px;
+    width: auto;
+    height: 33%;
+    color: white;
+    background-color: #10100d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+}
+.centeredText3 {
+    letter-spacing: 3px;
+}
